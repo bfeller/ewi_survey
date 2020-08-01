@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_paths = %w(lib)
 
   s.add_dependency("rails", ["~> 5.2.4"])
-  s.add_dependency("railties", "~> 5.0.7")
+  s.add_dependency("railties", "~> 5.2.4")
   s.add_development_dependency("mocha", ['~> 1.11'])
   s.add_development_dependency("faker", ['~> 1.8', '>= 1.8.7'])
   s.add_development_dependency("rake", ['~> 13.0', '>= 13.0.1'])
